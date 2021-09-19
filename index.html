@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link href="static/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- Custom stylesheets -->
+  <link rel="stylesheet" href="static/css/styles.css">
+
+  <title>Dream Decor</title>
+</head>
+
+<body>
+  <header class="pb-4">
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-moon"></i> Dream Decor</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item cart">
+            <a class="nav-link" href="cart.html"><i class="fas fa-shopping-basket"></i> Cart: <span>0</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <section id="shop">
+    <div class="container-fluid row pt-4">
+      <div class="image col-md-6">
+        <img class="rounded-circle pt-2 pb-2" src="static/images/santa.jpeg" alt="santa">
+        <h3>Santa - £1</h3>
+        <a class="add-cart cart1 cart-link" href="#">Add Cart</a>
+      </div>
+
+      <div class="image col-md-6">
+        <img class="rounded-circle pt-2 pb-2" src="static/images/snowman.jpeg" alt="snowman">
+        <h3>Snowman - £2</h3>
+        <a class="add-cart cart2 cart-link" href="#">Add Cart</a>
+      </div>
+
+      <div class="image col-md-6">
+        <img class="rounded-circle pt-2 pb-2" src="static/images/elf.jpeg" alt="elf">
+        <h3>Elf - £3</h3>
+        <a class="add-cart cart3 cart-link" href="#">Add Cart</a>
+      </div>
+
+      <div class="image col-md-6">
+        <img class="rounded-circle pt-2 pb-2" src="static/images/penguin.jpeg" alt="penguin">
+        <h3>Penguin - £4</h3>
+        <a class="add-cart cart4 cart-link" href="#">Add Cart</a>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="items">
+    <div class="christmas-ornaments container-fluid">
+
+      <h2 class="text-center mb-4 pb-">Festive Ornaments</h2>
+
+      <div class="item-row">
+        <div class="christmas-tree-img">
+          <img class="christmas-tree shop-img" src="static/images/christmas-tree/2.jpg" alt="christmas-tree-img">
+        </div>
+        <h4>Christmas Tree</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <a class="add-cart cart1 cart-link" href="#">Add Cart</a>
+      </div>
+
+      <div class="item-row">
+        <div class="reindeer-img">
+          <img class="reindeer shop-img" src="static/images/reindeer/2.jpg" alt="reindeer-img">
+        </div>
+        <h4>Reindeer</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <a class="add-cart cart2 cart-link" href="#">Add Cart</a>
+      </div>
+
+      <div class="item-row">
+        <div class="snowman-img">
+          <img class="snowman shop-img" src="static/images/snowman/2.jpg" alt="snowman-img">
+        </div>
+        <h4>Snowman</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <a class="add-cart cart3 cart-link" href="#">Add Cart</a>
+      </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container-fluid">
+      <i class="footer-icon fab fa-twitter"></i>
+      <i class="footer-icon fab fa-facebook-f"></i>
+      <i class="footer-icon fab fa-instagram"></i>
+      <i class="footer-icon fas fa-envelope"></i>
+      <p class="">© Copyright 2021 Dream Decor</p>
+    </div>
+
+  </footer>
+
+  <script src="static/js/index.js" charset="utf-8"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

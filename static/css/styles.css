@@ -1,0 +1,141 @@
+/* colour palette https://www.canva.com/colors/color-meanings/midnight-blue/ */
+
+body {
+  color: #ccccff;
+  background-color: #212196;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+a {
+  color: #ccccff;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 2rem 2rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ccccff;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ccccff;
+  text-align: center;
+}
+
+.cart-link {
+  color: #ccccff;
+  font-weight: 500;
+}
+
+/* Shop */
+
+.image {
+  text-align: center;
+  margin: 0 auto 3.5rem;
+}
+
+/* New Shop */
+
+.christmas-ornaments{
+  max-width: 1000px;
+}
+
+.item-row {
+  margin: 0 auto 70px;
+  text-align: left;
+  width: 75%;
+}
+
+.shop-img {
+  max-width: 200px;
+  margin: .5rem;
+}
+
+.christmas-tree-img {
+  float: left;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.reindeer-img {
+  float: left;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.snowman-img {
+  float: left;
+  margin-right: 2%;
+  text-align: center;
+}
+
+
+/* Cart */
+
+.products-container {
+  max-width: 800px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.fa-plus:hover, .fa-minus:hover {
+  color: white;
+}
+
+.thumbnail {
+  max-width: 75px;
+}
+
+td {
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.foot {
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 40px 20px 20px;
+}
+
+.footer-icon:hover {
+  color: white;
+}
